@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "tauri-app",
   "type": "module",
   "private": true,
   "scripts": {

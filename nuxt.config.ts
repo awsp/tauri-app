@@ -38,7 +38,7 @@ export default defineNuxtConfig({
   },
 
   colorMode: {
-    storageKey: "my-app-color-mode",
+    storageKey: "tauri-app-color-mode",
     classSuffix: "",
   },
 
