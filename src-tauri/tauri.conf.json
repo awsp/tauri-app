@@ -10,13 +10,25 @@
     "beforeBuildCommand": "bun run generate"
   },
   "app": {
+    "macOSPrivateApi": true,
+    "trayIcon": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true
+    },
     "windows": [
       {
         "title": "my-app",
-        "width": 800,
-        "height": 600,
+        "width": 1280,
+        "height": 960,
         "resizable": true,
-        "fullscreen": false
+        "fullscreen": false,
+        "transparent": true,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true,
+        "windowEffects": {
+          "effects": ["sidebar"],
+          "state": "active"
+        }
       }
     ],
     "security": {

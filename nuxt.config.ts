@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     host: "0",
   },
 
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   experimental: {
     viteEnvironmentApi: true,
